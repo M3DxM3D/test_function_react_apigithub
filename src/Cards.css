@@ -1,0 +1,113 @@
+@font-face {
+  font-family: "Consolas";
+  src: url("https://fontsforyou.com/fonts/c/Consolas.ttf");
+}
+
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+li{
+  list-style-type: none;
+}
+
+.tabuser {
+  display: flex;
+  align-content: stretch;
+  background-color: #041b3b;
+  width: 70vw;
+  flex-direction: column;
+  text-align: center;
+  border-radius: 30px;
+  background-color: white;
+
+ }
+
+.tabuseravatar {
+
+  display: flex;
+  flex-direction: column;
+}
+
+.tabuseravatar img {
+  width: 100px;
+  margin: 10px;
+  border: 1px solid white;
+  box-shadow: 5px 5px 5px #041b3b;
+}
+
+.tabuserlogin, .tabuserid {
+  color: #041b3b;
+  font-weight: bold;
+  font-family: 'PIRATE SCROLL', sans-serif;
+  font-size: 20px;
+  
+}
+
+.tabuserid{
+font-size: 17px;
+
+}
+.tabheader {
+
+  background-color: #041b3b;
+  border: 1px #041b3b solid;
+  height: 40px;
+   border-top-left-radius: 30px;
+   border-top-right-radius: 30px;
+
+}
+
+.tabfooter {
+  background-color: #041b3b;
+  border: 1px #041b3b solid;
+   height: 40px;
+   border-bottom-left-radius: 30px;
+   border-bottom-right-radius: 30px;
+
+}
+
+.tabcontainer {
+
+  display: flex;
+  align-content: center;
+  flex-wrap: wrap;
+  gap: 30px;
+  margin-top: 30px;
+
+}
+
+
+
+
+
+
+@media screen and (min-width: 900px) {
+
+
+
+
+
+  .tabuser {
+
+    width: 30vw;
+
+  
+   }
+  
+
+
+}
